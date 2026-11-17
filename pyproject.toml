@@ -1,0 +1,21 @@
+[project]
+name = "control-systems-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "liam-holland", email = "liam.holland96@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "control>=0.10.2",
+    "marimo>=0.25.2",
+    "slycot>=0.7.1",
+]
+
+[project.scripts]
+control-systems-python = "control_systems_python:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
