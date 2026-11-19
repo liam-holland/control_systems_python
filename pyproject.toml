@@ -11,6 +11,7 @@ dependencies = [
     "control>=0.10.2",
     "marimo>=0.25.2",
     "slycot>=0.7.1",
+    "sympy>=1.14.0",
 ]
 
 [project.scripts]
